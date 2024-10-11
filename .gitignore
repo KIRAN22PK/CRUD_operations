@@ -1,2 +1,14 @@
+# Ignore Python bytecode files
+*.py[cod]
+__pycache__/
+
+# Ignore virtual environments
 env/
-*.po text eol=lf
+venv/
+
+# Ignore Django migrations
+**/migrations/*.py
+**/migrations/*.py
+# Ignore Python bytecode files
+*.py[cod]
+__pycache__/
